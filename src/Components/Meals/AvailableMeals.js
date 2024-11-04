@@ -22,7 +22,7 @@ const DUMMY_MEALS =[
     },
     {
         id:'m4',
-        name:'Chiken pudina rich Biryani',
+        name:'Lakhnavi Chiken Biryani',
         description: 'Mouth watering, yummilicious, testy chiken biryani served with rayta',
         price: 80,
     },
