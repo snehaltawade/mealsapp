@@ -9,7 +9,7 @@ const MealItemForm =(props)=>{
     const [amountIsValid ,setamountIsValid ] = useState(true)
     const amountRef = useRef(0);
     const addAmount = (event) => {
-        var amt=ctx.items
+        // var amt=ctx.items
         // console.log(amountRef.current.value);
         // console.log("inside amountref");
     }

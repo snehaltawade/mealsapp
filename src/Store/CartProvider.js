@@ -36,7 +36,7 @@ const cartReducer = (state, action)=>{
         console.log("inside remove",action.id.id)
         let removeItemIndex = state.items.findIndex(item=>item.id === action.id.id)
         let itemToRemove = state.items[removeItemIndex];
-        var updatedTotalAmount = state.totalAmount - (itemToRemove.price);
+        updatedTotalAmount = state.totalAmount - (itemToRemove.price);
         console.log(removeItemIndex, itemToRemove)
         let updatedItem
         let updatedItems =[]
